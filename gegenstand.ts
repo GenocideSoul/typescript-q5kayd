@@ -41,7 +41,7 @@ export abstract class Gegenstand {
    *   Konstruktor:
    *      constructor(public readonly id: number, private _wert: number) {}
    *   Getter für '_wert':
-   *      get wert() {return this._wert;}
+   *      get wert(): number {return this._wert;}
    *   Setter für '_wert':
    *      set wert(wert: number) {this._wert = wert;}
    *   Beispiel für Aufruf des Getters:
